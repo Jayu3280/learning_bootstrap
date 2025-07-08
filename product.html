@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pet Animal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " href="services.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active bg-danger rounded-pill" href="product.html">Product</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contact Us</a>
+            </li>
+
+         
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+    <section>
+        <!-- product section start -->
+
+        <section class="mt-4 mb-4 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <h2>Product</h2>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="/images/bird2.avif"  class="card-img-top" alt="..">
+                            <div class="card-body">
+                                <h5 class="card-title">Bird</h5>
+                                <p class="card-text">Birds are a group of warm-blooded vertebrates constituting the
+                                    class Aves, characterised by feathers, toothless beaked jaws, the laying of
+                                    hard-shelled eggs</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Click Here To More Info
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/cat.jpg" class="card-img-top" alt="..">
+                            <div class="card-body">
+                                <h5 class="card-title">Cat</h5>
+                                <p class="card-text">The term "c a t" refers to the domestic cat, also known as the
+                                    house cat, scientifically classified as Felis catus. It's a small carnivorous mammal
+                                    popular as a pet. Cats are known for their hunting skills and playful nature. </p>
+
+                                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+           Click Here To More Info
+            </button> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/dog.webp" class="card-img-top" alt="..">
+                            <div class="card-body">
+                                <h5 class="card-title">Dog</h5>
+                                <p class="card-text">The dog Canis familiaris or Canis lupus familiaris is a
+                                    domesticated descendant of the gray wolf. Also called the domestic dog, it was
+                                    selectively bred from a population of wolves </p>
+                                <!-- Button trigger modal -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/cow.webp" class="card-img-top" alt="..">
+                            <div class="card-body">
+                                <h5 class="card-title">Cattle</h5>
+                                <p class="card-text">Cattle (Bos taurus) are large, domesticated, bovid ungulates widely
+                                    kept as livestock. They are prominent modern members of the subfamily Bovinae and
+                                    the most widespread species of the genus Bos</p>
+                                <!-- Button trigger modal
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="Cat">
+           Click Here To More Info
+            </button> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- product section end -->
+
+        <!-- All models -->
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Bird</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Bird</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/images/bird2.avif" class="img-fluid">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                    <article>
+                                        Birds are a group of warm-blooded vertebrates constituting the class Aves,
+                                        characterised by feathers, toothless beaked jaws, the laying of hard-shelled
+                                        eggs, a high metabolic rate, a four-chambered heart, and a strong yet
+                                        lightweight skeleton.
+                                    </article>
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
